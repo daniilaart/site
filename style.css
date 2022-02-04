@@ -5,8 +5,9 @@ body {
   font-size: 16px;
   line-height: 32px;
   color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  background-color: rgba(191, 148, 105, 1);
+  background-image: url("img/hero-bg.jpg") ;
+  background-size: 2560px auto;
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -71,8 +72,14 @@ body {
 
 .intro {
   margin: 0 0 120px;
+  /*background: linear-gradient(rgba(191, 148, 105, 0.7), rgb(191, 148, 105));
+  
+  /*background-color: rgba(191, 148, 105, 0.5);*/
 }
-
+.gradient {
+  
+  background: linear-gradient(rgba(191, 148, 105, 0.7), rgba(191, 148, 105, 100.7));
+}
 .subheading {
   margin: 0 0 56px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
@@ -131,7 +138,7 @@ body {
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #288be6;
+  background-color: #ffdf3d;
   border-radius: 6px;
 }
 
@@ -171,7 +178,7 @@ body {
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
+  background-color: rgb(130, 99, 68);
   color: #ffffff;
 }
 
